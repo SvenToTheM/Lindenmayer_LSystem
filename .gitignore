@@ -1,0 +1,69 @@
+# ==========================================
+# Godot 4.5 Specific
+# ==========================================
+**/Client/.godot/
+**/Client/*.translation
+**/Client/android/
+
+# ==========================================
+# .NET / C# (Server, Shared, Client Projects)
+# ==========================================
+# Build results
+**/bin/
+**/obj/
+**/publish/
+
+# MSBuild / User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# IDEs & Tools
+# ==========================================
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# OS / Infrastructure
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# Secrets & Environment (Crucial for IT Security)
+*.env
+*.settings.json
+!appsettings.json
+appsettings.Dev.json
+appsettings.Test.json
+appsettings.Prod.json
+
+secrets.json
+
+# Infrastructure / Terraform / Bicep
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# ==========================================
+# Assets & LFS
+# ==========================================
+# Nur Assets ausschließen, die aus Source-Files generiert werden
+# Große Binary Files sollten via Git LFS getrackt werden
+**/Aseprite/
+*.zip
